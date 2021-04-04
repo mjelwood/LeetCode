@@ -2,8 +2,12 @@
     public int SingleNumber(int[] nums) {
      
         Dictionary<int, int> currentCountOfKeys = new Dictionary<int, int>();
-        int onlyAppearsOnce = 0;
-        
+        currentCountOfKeys = GetCountOfKeyValuesFromNumberArray(nums, currentCountOfKeys);
+        return returnSingleValue(currentCountOfKeys);
+    }
+    
+    internal Dictionary<int, int> GetCountOfKeyValuesFromNumberArray(int[] nums, Dictionary<int,int> currentCountOfKeys)
+    {
         for(int i = 0; i < nums.Length; i++)
         {
             int curKey = nums[i];
@@ -17,15 +21,20 @@
             }
         }
         
+        return currentCountOfKeys;
+    }
+    
+    internal int returnSingleValue(Dictionary<int,int> currentCountOfKeys)
+    {
+        int onlyAppearsOnce = 0;
         foreach(KeyValuePair<int,int> item in currentCountOfKeys)
         {
             if(item.Value == 1)
             {
                 onlyAppearsOnce = item.Key;
-				break; // Exit out if we found that single entry!
+                break;
             }
         }
-        
         return onlyAppearsOnce;
     }
 }
