@@ -22,6 +22,7 @@
             if(item.Value == 1)
             {
                 onlyAppearsOnce = item.Key;
+				break; // Exit out if we found that single entry!
             }
         }
         
