@@ -21,4 +21,4 @@
 *  - YouTube: https://www.youtube.com/watch?v=JfLin6pbCcg 
 *  - LeetCode: https://leetcode.com/problems/merge-strings-alternately/
 
-* Example xxxx: Add new example here
+TODO: we need to add template
