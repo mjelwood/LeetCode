@@ -20,4 +20,3 @@
 * Example 1768. Merge Strings Alternately 
 *  - YouTube: https://www.youtube.com/watch?v=JfLin6pbCcg 
 *  - LeetCode: https://leetcode.com/problems/merge-strings-alternately/
-
