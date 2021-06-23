@@ -1,5 +1,4 @@
-# LeetCode - Solutions using C#
-
+# LeetCode - Solutions using C# 
 * Example: 136. Single Number I
 *  - YouTube: https://www.youtube.com/watch?v=8dL0fXfV7Ys 
 *  - LeetCode: https://leetcode.com/problems/single-number/
