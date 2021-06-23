@@ -21,3 +21,6 @@
 *  - YouTube: https://www.youtube.com/watch?v=JfLin6pbCcg 
 *  - LeetCode: https://leetcode.com/problems/merge-strings-alternately/
 
+* Example: 136. Single Number I
+*  - YouTube: https://www.youtube.com/watch?v=8dL0fXfV7Ys 
+*  - LeetCode: https://leetcode.com/problems/single-number/
