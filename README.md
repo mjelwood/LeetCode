@@ -1,4 +1,5 @@
 # LeetCode - Solutions using C#
+sample 1 squash merge
 
 * Example: 136. Single Number I
 *  - YouTube: https://www.youtube.com/watch?v=8dL0fXfV7Ys 
